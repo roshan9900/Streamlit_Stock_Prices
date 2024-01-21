@@ -28,3 +28,5 @@ st.line_chart(stock_data['Volume'])
 # with col4:
 st.header('Price Chart')
 st.line_chart(stock_data['Close'])
+st.header('High')
+st.line_chart(stock_data['High'])
